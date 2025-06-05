@@ -15,8 +15,8 @@ ul {
 
 body,
 html {
-  /* font-family: 'CircularStd', sans-serif; */
-  font-family: "Poppins";
+  font-family: 'CircularStd', sans-serif;
+  /* font-family: "Poppins"; */
   overflow-x: hidden;
 }
 
@@ -46,7 +46,7 @@ p {
 /* ---main start */
 .main {
   width: 100%;
-  min-height: 100vh;
+  min-height: 100dvh;
   max-width: 768px;
   margin: auto;
   overflow: hidden;
@@ -62,9 +62,6 @@ p {
 /* ---main end */
 
 /* ---home-page--start */
-.dvh{
-  min-height: 100dvh;
-}
 .home-bg,
 .start-bid-bg {
   background-image: url("../image/home-bg.png");
