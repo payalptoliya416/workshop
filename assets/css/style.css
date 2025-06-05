@@ -349,7 +349,7 @@ p {
 /* --workshop-modal--start */
 .workshop-modal .modal-content {
   margin: 0 20px;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 .workshop-modal .modal-body {
   background-color: white;
@@ -385,7 +385,7 @@ p {
   border: none;
   width: max-content;
   background-color: transparent;
-  padding: 8px 16px 0;
+  padding: 14px 16px 0;
   color: var(--orange-color);
   font-size: 20px;
 }
