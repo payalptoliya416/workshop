@@ -652,6 +652,9 @@ p {
     font-size: 14px;
     line-height: 20px;
   }
+  .location-info{
+    padding: 18px;
+  }
 }
 /* --pick-location--end */
 
