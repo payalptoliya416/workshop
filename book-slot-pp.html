@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <!-- --bootstrap -->
+     <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+    <!-- --fonts-- -->
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <!-- --style-- -->
+    <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+      <div class="main">
+        <div class="top-nav inc-nav">
+           <a href="index.html"><button><img src="assets/image/home-icon.png" alt=""/> Home</button></a>
+        </div>
+        <section class="pick-sec">
+            <div class="mywork-info">
+                  <div class="container">
+                    <div class="tnc-title">
+                         <h4>YOU WON'T BELIEVE IT's TRASH</h4>
+                          <h1>From Palette To Palette</h1>
+                          <h2>Eco-Chic <br/> Wrokshops Registration</h2>
+                          <div class="para">Pick a workshop slot</div>
+                   </div>
+                </div>
+            </div>
+             <div class="bookslot-info">
+                     <div class="bookslot-title">Saturday, 26 July</div>
+                     <div class="slot-info">
+                        <h3>Acrylic Painting</h3>
+                        <div class="d-flex justify-content-between"><p>5:00 pm (Duration: 40 mins)</p> <p><strong>Fully Booked</strong></p></div>
+                        <ul class="slot-list">
+                            <li><img src="assets/image/Map.png" alt=""/> <span>Parkway Parade, Basement Airwell 1</span></li>
+                            <li><img src="assets/image/profile.png" alt=""/> <span>1 pax</span></li>
+                        </ul>
+                     </div>
+            </div>
+             <div class="bookslot-info">
+                     <div class="bookslot-title">Sunday, 27 July</div>
+                     <div class="slot-info">
+                        <h3>Watercolour Palette</h3>
+                        <div class="d-flex justify-content-between"><p>2:00 pm (Duration: 40 mins)</p> <p>1 seat(s) left</p></div>
+                        <ul class="slot-list">
+                            <li><img src="assets/image/Map.png" alt=""/> <span>Parkway Parade, Basement Airwell 1</span></li>
+                            <li><img src="assets/image/profile.png" alt=""/> <span>1 pax</span></li>
+                        </ul>
+                        <div class="text-center">
+                            <button class="common-btn mt-2 book-btn" data-bs-toggle="modal" data-bs-target="#slotPPModal">Book Now</button>
+                        </div>
+                     </div>
+            </div>
+             <div class="bookslot-info">
+                     <div class="bookslot-title">Saturday, 2 August</div>
+                     <div class="slot-info">
+                        <h3>Acrylic Painting</h3>
+                        <div class="d-flex justify-content-between"><p>5:00 pm (Duration: 40 mins)</p> <p>16 seat(s) left</p></div>
+                        <ul class="slot-list">
+                            <li><img src="assets/image/Map.png" alt=""/> <span>Parkway Parade, Basement Airwell 1</span></li>
+                            <li><img src="assets/image/profile.png" alt=""/> <span>1 pax</span></li>
+                        </ul>
+                        <div class="text-center">
+                            <button class="common-btn mt-2 book-btn">Book Now</button>
+                        </div>
+                     </div>
+            </div>
+             <div class="bookslot-info">
+                     <div class="bookslot-title">Sunday, 3 August</div>
+                     <div class="slot-info">
+                        <h3>Watercolour Palette</h3>
+                        <div class="d-flex justify-content-between"><p>2:00 pm (Duration: 40 mins)</p> <p>16 seat(s) left</p></div>
+                        <ul class="slot-list">
+                            <li><img src="assets/image/Map.png" alt=""/> <span>Parkway Parade, Basement Airwell 1</span></li>
+                            <li><img src="assets/image/profile.png" alt=""/> <span>1 pax</span></li>
+                        </ul>
+                        <div class="text-center">
+                            <button class="common-btn mt-2 book-btn">Book Now</button>
+                        </div>
+                     </div>
+            </div>
+        </section>
+      </div>
+
+        <!-- --book slot modal start -->
+     <div class="modal fade"  id="slotPPModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="slotPPModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body">
+         <div class="my-work-data py-4 px-2" >
+                     <h2>Acrylic Painting</h2>
+                     <ul class="work-list">
+                        <li>
+                            <div class="worklist-info"><img src="assets/image/calendar.png" alt=""/><span>Sat, 26 July</span></div>
+                            <div  class="worklist-info"><img src="assets/image/clock.png" alt=""/><span>2:00 pm (Duration: 40 mins)</span></div>
+                        </li>
+                        <li>
+                            <div  class="worklist-info"><img src="assets/image/Map.png" alt=""/><span>Parkway Parade, Basement Airwell 1</span></div>
+                        </li>
+                        <li>
+                            <div  class="worklist-info"><img src="assets/image/Profile.png" alt=""/><span>1 pax</span></div>
+                        </li>
+                     </ul>
+          </div>
+           <div class="artmodal-btn">
+                        <a href="#" class="token-btn" class="btn-close" data-bs-dismiss="modal" aria-label="Close">Cancel</a>
+                    <a href="#" class="proceed-btn" data-bs-toggle="modal" data-bs-target="#slotConfirmedPPModal">Confirm Booking</a>
+                        </div>
+      </div>
+    </div>
+  </div>
+      </div>
+
+      <!-- --book slot modal end -->
+      <!-- --book confirmed modal start -->
+     <div class="modal fade"  id="slotConfirmedPPModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="slotConfirmedPPModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content border-0 rounded-4">
+      <div class="modal-body">
+         <div class="book-confirm-modal">
+            <img src="assets/image/right.png" alt=""/>
+            <h2 class="book-head">Your booking is confirmed</h2>
+            <p class="para">Workshop pass will be credited into your in-app
+            wallet within 24 hours. Please check your in-app
+            wallet to view your workshop pass details.</p>
+            <p class="para">Please arrive 5 minutes before the start time.
+            Participants who arrive 10 minutes after the start
+            time will not be allowed to enter.</p>
+         </div>
+            <div class="my-work-data py-3 bg-pink" >
+                     <h2>Watercolour Palette</h2>
+                     <ul class="work-list">
+                        <li>
+                            <div class="worklist-info"><img src="assets/image/calendar.png" alt=""/><span>Sun, 13 July</span></div>
+                            <div  class="worklist-info"><img src="assets/image/clock.png" alt=""/><span>2:00 pm (Duration: 40 mins)</span></div>
+                        </li>
+                        <li>
+                            <div  class="worklist-info"><img src="assets/image/Map.png" alt=""/><span>Jem, L2 outside H&M</span></div>
+                        </li>
+                        <li>
+                            <div  class="worklist-info"><img src="assets/image/Profile.png" alt=""/><span>1 pax</span></div>
+                        </li>
+                     </ul>
+          </div>
+          <div class="enquir-para">
+            <p>For enquiries, please contact our</p>
+            <p>Customer Support Team at 6850 5002</p>
+            <p>Operating Hours: 9am - 6pm, Mon - Fri (excluding PH) or email to enquiries@member.lendleaseplus.com</p>
+          </div>
+          <div class="text-center">
+             <a href="index.html"><button class="common-btn">Done</button></a> 
+          </div>
+      </div>
+    </div>
+  </div>
+      </div>
+      <!-- --book confirmed modal end -->
+
+       <script src="assets/js/bootstrap.bundle.min.js"></script>
+</html>
