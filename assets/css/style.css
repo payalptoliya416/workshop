@@ -89,10 +89,11 @@ p {
 .home-info h4 {
   font-size: 14px;
   line-height: 16px;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
   color: var(--orange-color);
   margin-bottom: 5px;
+   font-family: 'Montserrat';
 }
 .home-info p {
   font-size: 15px;
@@ -261,6 +262,7 @@ p {
   font-weight: 500;
   color: var(--orange-color);
   margin-bottom: 5px;
+   font-family: 'Montserrat';
 }
 .tnc-title h1 {
   font-size: 34px;
