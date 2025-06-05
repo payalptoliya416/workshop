@@ -93,7 +93,6 @@ p {
   text-transform: uppercase;
   color: var(--orange-color);
   margin-bottom: 5px;
-  font-family: "CircularStd", sans-serif;
 }
 .home-info p {
   font-size: 15px;
@@ -102,7 +101,6 @@ p {
   text-transform: uppercase;
   color: var(--orange-color);
   margin-bottom: 5px;
-  font-family: "CircularStd", sans-serif;
 }
 .home-info h1 {
   font-size: 40px;
@@ -262,7 +260,6 @@ p {
   line-height: 20px;
   font-weight: 500;
   color: var(--orange-color);
-  font-family: "CircularStd", sans-serif;
   margin-bottom: 5px;
 }
 .tnc-title h1 {
@@ -391,6 +388,10 @@ p {
   padding: 8px 16px 0;
   color: var(--orange-color);
   font-size: 20px;
+}
+.workmodal-close img{
+  width: 100%;
+  max-width: 12px;
 }
 .workmodal-info {
   background-color: #fce2e0;
