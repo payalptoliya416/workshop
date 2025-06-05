@@ -506,6 +506,7 @@ p {
   color: #000;
   margin-bottom: 14px;
 }
+
 .work-list li img {
   display: inline-block;
 }
@@ -590,6 +591,9 @@ p {
     gap: 6px;
     flex-wrap: wrap;
   }
+  #slotModal .modal-body,#slotPLQModal .modal-body,#slotPPModal .modal-body{
+  padding: 10px;
+}
 }
 
 /* --mywork-page--end */
@@ -616,6 +620,9 @@ p {
   text-align: center;
   margin-bottom: 20px;
   display: block;
+}
+.location-info:last-child{
+  margin-bottom: 30px;
 }
 /* --for opacity down use this "opacity" class */
 .location-info.opacity{
